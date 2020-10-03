@@ -18,6 +18,8 @@ class AppServiceProvider extends ServiceProvider
         if ($this->app->runningUnitTests()) {
             Schema::defaultStringLength(191);
         }
+
+        Schema::defaultStringLength(191);
     }
 
     /**
